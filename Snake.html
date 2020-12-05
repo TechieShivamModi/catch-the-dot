@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="Snake.js"></script>
+</head>
+
+<body>
+    <form>
+        <div style="height: 5%;width: 50%;margin: auto;">
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        Time : <label id="lblTime" style="font-weight: bold;">00</label> sec
+                    </td>
+                    <td>
+                        <div></div>
+                    </td>
+                    <td style="text-align: right;">
+                        Points : <label id="lblPoints" style="font-weight: bold;">00</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="divFrame" style="border: 10px solid black; height: 50%;width: 50%;background-color: darkred;margin: auto;">
+            <div id="divSnake" style="width: 2%;height: 4%;background-color: white;"></div>
+            <div id="divBox" style="width: 2%;height: 4%;background-color: yellow;"></div>
+        </div>
+        <br/>
+        <div style="text-align: center;">
+            <input type="button" value="Start" onclick="start()" id="btnStart" style="background-color: darkred;border: 2px solid black;border-radius: 20px;color: white;padding: 20px;" />
+        </div>
+        <div id="divMessage" style="text-align: center;font-size: xx-large;font-family: 'Courier New', Courier, monospace;">
+            Catch the box
+        </div>
+
+    </form>
+
+
+
+</body>
+
+</html>
